@@ -6,6 +6,14 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "font-awesome/css/font-awesome.min.css";
+import { faCarrot } from "@fortawesome/free-solid-svg-icons/faCarrot";
+import { faSeedling } from "@fortawesome/free-solid-svg-icons/faSeedling";
+import { faAppleAlt } from "@fortawesome/free-solid-svg-icons/faAppleAlt";
+import { faFireAlt } from "@fortawesome/free-solid-svg-icons/faFireAlt";
+import { library } from "@fortawesome/fontawesome-svg-core";
+
+library.add(faCarrot, faSeedling, faAppleAlt, faFireAlt);
 
 ReactDOM.render(
   <React.StrictMode>
